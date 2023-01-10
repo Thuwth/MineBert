@@ -1,0 +1,3 @@
+# Introduction
+Bert is trained based on MLM task and NSP task, where MLM task enables it to learn semantic information in text. However, in the mlm task, the model only covers the token randomly. The model can only learn the token-level information most of the time, but can not learn the entity-level semantics well.
+We manually mask the entities in the mineralogical text, and then use the Bert model pre-trained on the mineralogical dataset to predict the masked entities according to the context semantics, so as to integrate the entity information in the sentence into the language model, which is conducive to the mineralogical knowledge graph reasoning task.
