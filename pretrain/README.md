@@ -1,4 +1,4 @@
-# pretrain MineBert model
+# Pretrain MineBert Model
 
 Pretraining a Mineralogy Bert for information extraction and sentence classification. Our codes refers to the official code of [huggingface transformers](https://huggingface.co/). 
 
